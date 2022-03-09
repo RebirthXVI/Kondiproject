@@ -1,4 +1,4 @@
 # Kondiproject
 Iskolaiproject
 üdvözöllek a projektben
-Erdős Máté bejelentkezik
+Erdős Máté bejelentkezése
