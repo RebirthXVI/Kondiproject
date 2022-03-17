@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  background-color: #ffee00;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column.middle{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif 
+}
+.wrapper {
+  margin: 0;
+  width: 1000px;
+}
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+.videowrapper iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>GYM</h1>
+</div>
+
+<div class="topnav">
+    <a href="#">Lehúzás bicepszre</a>
+    <a href="#">Kábeles evezés</a>
+    <a href="#">A padra guggolás</a>
+    <a href="#">Fekvőtámasz</a>  
+    <a href="#">A Kitörés gyakorlat</a>  
+    <a href="#">Tolódzkodás</a>  
+    <a href="#">Fej fölé nyomás egykezes súlyzóval állva</a>  
+    <a href="#">Felhúzás - elemelés</a>    
+</div>
+
+<div class="row">
+  </div>
+  <div class="column middle">
+    <h2>Lehúzás bicepszre</h2>
+    <p>A lehúzás bicepszre a bicepszet és a széles hátizmok alsó részét dolgoztatja meg leginkább.</p>
+  </div>
+  <div class="column middle">
+  <div class="videowrapper">
+    <iframe src="https://player.vimeo.com/video/130071059?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+</div>  
+  </div>
+  <div class="row">
+  <div class="column middle">
+    <h3>Angolul: Narrow reverse grip pulldown</h3>
+       <h3>Hatás</h3>
+    <p>A lehúzás bicepszre a bicepszet és a széles hátizmok alsó részét dolgoztatja meg leginkább.</p>
+    <h3>Kiinduló helyzet</h3>
+    <p>Fogd meg a rudat szűk, maximum vállszélességű fogással, a tenyerek az arcod felé nézzenek.</p>
+    <h3>A mozgás</h3>
+    <p>Koncentrálj arra, hogy a bicepsz erejével húzd le a rudat a mellkasodig, majd lassan engedd vissza.</p>
+    <h3>Edzéstipp</h3>
+    <p>Itt nem fontos a hátizmokat összehúzni a mozdulat alsó pontján, mivel pont az a lényeg, hogy a karod erejével mozgasd a rudat. Az alsó ponton feszíts rá keményen a bicepszedre!</p>
+    <h3>Kábeles evezés</h3>
+    <div class="videowrapper">
+      <iframe src="https://player.vimeo.com/video/130958873?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+  </div>   
+    <h3>Angolul: Cable Rows
+      Hatás</h3>
+      <p>A kábeles evezés a hagyományos, szűk fogantyúval végezve leginkább a hátizom alsó régióit dolgoztatja meg. A fogás szélességétől függően stimulálhatod a belső és külső részeket is.</p>
+      <h3>Kiinduló helyzet</h3>
+      <p>Ezt a gyakorlatot hosszú kábeles géppel kell végezni. Rögzítsd a lábadat a készüléken, majd húzd a fogantyút a tested középső része felé, vízszintes irányban.</p>
+      <h3>A mozgás</h3>
+      <p>Maradj ebben a helyzetben egy másodpercig, majd engedd a karodat lassan kiegyenesedni, amíg a széles hátizmok meg nem nyúlnak teljesen. Húzd be a fogantyút újból, és ismételd a mozdulatot. A karok kinyúlásakor próbálj meg arra törekedni, hogy a hátizom is megnyúljon, ne csak a karodat nyújtsd ki.</p>
+      <h3>Edzéstipp</h3>
+      <p>A gyakorlat végezhető egykezes változatban is, így maximálisan rá tudunk koncentrálni a célizomra, és nem mellékesen, még hátrébb tudjuk húzni a fogantyút, ami még erőteljesebb izom összehúzódást eredményez. A kábeles evezés szűken az erre alkalmas fogantyúval végezve főleg a hátizom alsó részeit terheli, azonban a fogás szélességével tetszőlegesen dolgoztathatjuk meg az edzeni kívánt részeket.</p>
+      <h3>A padra guggolás</h3>
+      <div class="videowrapper">
+        <iframe src="https://player.vimeo.com/video/130222525?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+    </div> 
+    <h3>Angolul: Dumbbell squat to a bench
+      Hatás</h3>  
+      <p>A padra guggolás helyesen végezve a négyfejű combizmot, a combhajlítókat és a farizmot dolgoztatja meg. Koncentráltan, lassan érdemes végezni, ami sokkal intenzívebb, ill. más jellegű terhelésnek teszi ki a combodat, mint a hagyományos guggolás. Térdfájósoknak jó alternatíva lehet (nyilvánvalóan a térdprobléma fokától és jellegétől függően).</p>
+      <h3>Kiinduló helyzet</h3>
+      <p>Fogj a kezedben egy pár kézisúlyzót. Egy padot húzz magad mögé úgy, hogy ha leguggolsz, pont rá tudj ülni hátra. A súlyokat a tested mellett hagyd lógni.</p>
+      <h3>A mozgás</h3>
+      <p>Lassan guggolj le, amíg a feneked meg nem érinti a padot, majd ha ez megtörtént, nyomban állj fel. Ne ülj le a padra, csak érintsd. Ez csak jelzés, hogy eddig tartott a mozgás.</p>
+      <h3>Edzéstipp</h3>
+      <p>A pad magasságának változtatásával szabályozhatod, hogy a guggolás mely szakaszát szeretnéd erősíteni leginkább. A guggolás edzésterv végére és elejére egyaránt beilleszthető, a vége azért lehet előnyösebb, mert nem kell eszetlenül nagy súlyokat tartanod a kezedben, hiszen már előfárasztottad a combjaidat. Sérülésveszélyt csak a hibás végrehajtás okozhat: ha nem egyenes a hátad, illetve ha a térded a lábfejed vonalánál előbbre kerül az alsó pozícióban. Ettől eltekintve, mivel nem lehet olyan nagy súlyokkal végezni mint a guggolást, ez egy teljesen biztonságos gyakorlatnak számít.</p>
+      <h3>Fekvőtámasz</h3>
+      <h3>Gyakorlat bemutatása</h3>
+      <div class="videowrapper">
+        <iframe src="https://player.vimeo.com/video/181928622?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+    </div> 
+    <h3>Angolul: Pushups</h3>
+    <p>A fekvőtámasz az egyik legrégibb, legismertebb és legelterjedtebb általános erőnlét javító gyakorlat. A fekvőtámasz a mell, a tricepsz és a hát izmait is erősíti. Elvégzésének különféle módjai léteznek: széles támasszal, keskeny támasszal, felpolcolt lábakkal, pad közé, fekvőtámasz bakon, stb.
+      <li>Addig engedd le magad, amíg a melled majdnem eléri a talajt, de ne érjen le.</li>
+      <li>Minden lefelé ereszkedés után tarts egy pillanatnyi szünetet, mielőtt kinyomnád magad.</li>
+      <li>A gyakorlat megkönnyíthető, ha a térdeden, és nem a lábfejeden támaszkodsz, és megnehezíthető, ha a lábaidat egy kis emelvényre helyezed.</li>
+      <li>Amennyiben szűkebb kartartást veszel fel, a terhelés java része áthelyeződik a tricepszre, míg szélesebb fogással a mellizmok végzik a nagyobb munkát.</li>
+    </p>
+    <h3>A Kitörés gyakorlat</h3>
+    <h3>A kitörés gyakorlat leírása</h3>
+    <div class="videowrapper">
+      <iframe src="https://player.vimeo.com/video/130221999?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+  </div> 
+  <h3>Angolul: Lunges
+    Hatás</h3>
+    <p>Ez a mozgás a combhajlítókat, a farizmokat és a négyfejű combizmot fejleszti. Miközben erőteljes izom-összehúzódás éri a combizmokat, ugyanakkor erőteljes nyújtó hatása is van a gyakorlatnak, ami ezáltal kiemelten hatékonnyá és komplexszé teszi. A kitörés helyesen végezve rendkívül intenzív, folyamatos terhelést biztosít, így mindenképpen érdemes beilleszteni a lábedzésedbe.</p>
+    <h3>Kiinduló helyzet</h3>
+    <p>Állj egyenesen. Egy nagy lépést lépj előre, és kinyújtott lábaddal lassan süllyedj guggolásba.</p>
+    <h3>A mozgás</h3>
+    <p>Amint leereszkedtél ebbe a helyzetbe, tégy egy újabb lépést előre a másik lábaddal, úgy, hogy közben kinyújtod az eddig behajlított lábadat, tehát fel-le ereszkedve lépegetsz előre, gyakorlatilag támadóállásban. A másik verzió, ha visszalépsz, és a másik lábaddal lépsz ki, majd azzal is vissza - így egy helyben kilépegetve, "helytakarékosan" tudod végezni a gyakorlatot.</p>
+    <h3>Edzéstipp</h3>
+    <p>Ha csak háromnegyedig nyomod fel magadat, vagy éppen csaknem teljesen, akkor állandó feszültséget tarthatsz fenn a négyfejű combizmokban. A kitörés edzés elején és végén egyaránt végezhető gyakorlat. A kitörés súllyal is végezhető: vagy fogj a kezeidben 1-1 kézisúlyzót, vagy a guggoláshoz hasonló tartással vegyél a hátadra egy rudat, tetszőleges súllyal megrakva, és így végezd a gyakorlatot.</p>
+    <h3>Tolódzkodás</h3>
+    <h3>A tolódzkodás bemutatása</h3>
+    <div class="videowrapper">
+      <iframe src="https://player.vimeo.com/video/130071790?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+  </div> 
+  <h3>Angolul: Pushups - Dip
+    Hatás</h3>
+    <p>A tolódzkodás egy remek mellizom-gyakorlat, különösen, ha a rudak viszonylag távol (70-85 cm) vannak egymástól. Az egymáshoz túl közel lévő rudak nagyobb mértékben mozgatják a tricepszet, bár azért a mellizom alsó és külső részét is megterhelik. Tehát a tolódzkodás a mellre akkor fog leginkább hatni, ha relatíve széles fogást alkalmazol.
+
+      Amikor a melledet edzed a korláton, a lábaid legyenek a test mögött, álladat szegd le a melledre, könyökeidet nyomd ki oldalra.
+      
+      A tolódzkodás mellre akkor a legindokoltabb, ha nincs a teremben negatív pad - mivel hasonló terhelést ad, mint a fekvenyomás negatív padon - valamint ha azt érzed, hogy változatosabb szögből érdemes megedzened a mellizmaidat. Mindazonáltal a tolódzkodás tricepsz gyakorlatként sokkal ismertebb, és talán hasznosabb is, amennyiben módosítasz a fogásszélességen.</p>
+      <h3>A mozgás</h3>
+      <p>Engedd le magad olyan mélyre, amennyire csak bírod, a kinyomás végén pedig nyújtsd ki a karodat. Ügyelj rá hogy a könyék ne legyen kiakasztva a csúcsponton. A mozgás legyen végig kontrollált, ne rugózz az alsó ponton, és ne végezd túl gyorsan a gyakorlatot.</p>
+      <h3>Edzéstipp</h3>
+      <p>A szélesebbre állított korláton végzett gyakorlattal a mell külső része edzhető. Minél szűkebb a fogás, annál inkább a tricepszre helyeződik a hangsúly. A tolódzkodás gépen is végezhető, itt vagy a tested részleges tehermentesítésén keresztül könnyítik a gyakorlatot, vagy egyszerűen más mechanikája lesz az egésznek, ami koncentráltabb végrehajtást tesz lehetővé.</p>
+      <h3>Fej fölé nyomás egykezes súlyzóval állva</h3>
+      <h3>Fej fölé nyomás egykezes súlyzóval állva</h3>
+      <div class="videowrapper">
+        <iframe src="https://player.vimeo.com/video/130418871?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+    </div> 
+    <h3>Hatás</h3>
+    <p>A fej fölé nyomás egykezes súlyzóval állva elsősorban a vállizom első és oldalsó fejét dolgoztatja meg. Másodlagos terhelést kap a tricepsz.</p>
+    <h3>Kiinduló helyzet</h3>
+    <p>Tarts egy pár egykezes súlyzót vállmagasságban, állj kis terpeszállásba, egyenes háttal, miközben egyenesen előre nézel.</p>
+    <h3>A mozgás</h3>
+    <p>Nyomd ki a súlyzókat a fejed fölé, majd engedd vissza a súlyzókat a kiinduló helyzetbe. A felső ponton ne akaszd ki a könyöködet, tehát a karjaidat ne nyújst ki teljesen a mozgástartomány felső holtpontján!</p>
+    <h3>Edzéstipp</h3>
+    <p>A gyakorlat ülve is végezhető, kevésbé terheli a hátat. Alaposan melegítsd be a törzsedet, mielőtt ezt a gyakorlatot végzed. Ez a gyakorlat nagyobb mozgástartományt tesz lehetővé, mint a mellről nyomás, ezért fokozottan figyeljünk a helyes kivitelezésre, a súlyok helyes megválasztására az esetleges sérülések elkerülése érdekében. A túl nagy súlyok használata könnyen kizökkenthet minket a nyomás párhuzamosságából, ilyen esetben gyakran az egyik oldalunk erőteljesebb nyomásával lehetünk hajlamosak kompenzálni - ez nem veszélytelen a vállízületekre.</p>
+    <h3>Felhúzás - elemelés</h3>
+    <h3>Felhúzás - A gyakorlat bemutatása</h3>
+    <div class="videowrapper">
+      <iframe src="https://player.vimeo.com/video/130737916?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"></iframe>
+  </div> 
+  <h3>Angolul: Deadlift</h3>
+  <p>A felhúzás az erőemelés harmadik gyakorlata. Kétségtelenül a legnehezebb erőgyakorlat. A erő, a puszta fizikai erő igazi próbája. A guggolás mellett a leghatásosabb teljes testet megmozgató gyakorlat. Felállni egy képtelenül nagy súllyal, ez az igazi kihívás. A felhúzást kevesen csinálják, mert rosszul végezve igen sérülésveszélyes is lehet, ám jól kivitelezve az egyik leghatásosabb tömegnövelő alapgyakorlat.</p>
+  <h3>Hatás</h3>
+  <p>A gyakorlat a hát alsó és középső részének izomzatát, a csípő izmait, a combizmokat és csuklyás izmot is stimulálja. A fogást is erősíti.</p>
+<h3>Kiinduló helyzet</h3>
+<p>A felhúzás rúddal végzendő gyakorlat minden esetben. Állj úgy, hogy lábszárcsont éppen érintse a súlyzót. Hajolj előre természetesen, és ragadd meg a rudat az egyik kezedet előre-, a másik kezedet hátrafordítva (a fogóerő növelésére). Egyenesedj ki, természetesen használva lábad és hátad együttes erejét. Az emelés kezdetétől tartsd a rudat a testedhez a lehető legközelebb. Elképzelhető hogy a rúd felhorzsolja a bokádat... ez ilyen. Tekintsd harci sebnek!</p>
+<h3>A mozgás</h3>
+<p>Vedd fel a súlyt a padlóról, a hátadat végig egyenesen tartva. Nagyon fontos, hogy a hát semmiképpen nem szabad, hogy domború legyen, ez egyenes út a porckorongsérvhez! Végig tartsd egyenesen, vagy kissé homorúan a hátadat, és egy pillanatra se felejtsd el ezt a pozíciót megtartani. A rudat a testedhez közel tartva emeld fel, ameddig a rúd a combodat nem érinti. Ez után lassan engedd vissza a kiinduló pozícióba. Ismételd a gyakorlatot az előírt ismétlésszámmal.</p>
+<h3>Edzéstipp</h3>
+<p>Ha egyszer mestere lettél ennek a gyakorlatnak, végezheted a felhúzást nyújtott lábbal is. Ezt merev lábú felhúzásnak nevezik, és nagyon keményen megdolgoztatja a hát alsó részét.</p>
+</body>
+</html>
+
+
